@@ -9,7 +9,7 @@ pipeline{
 
         stage('Build'){
             steps{
-                java Simple.java
+                echo "Hello"
             }
         }
     }
